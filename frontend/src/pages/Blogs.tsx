@@ -17,6 +17,7 @@ export const Blogs = () => {
   return (
     <div>
       <Appbar />
+      {/* @ts-ignore */}
       {blogs?.map((item: any) => {
         return (
           <BlogCard
