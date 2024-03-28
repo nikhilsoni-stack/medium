@@ -6,7 +6,6 @@ export const Blog = () => {
   const { id } = useParams();
 
   const [blogs, loading] = useBlogs(id);
-
   if (loading) {
     return <div>Loading...</div>;
   }
